@@ -16,19 +16,19 @@ Experimentally, our data synthesis strategy exhibits an attractive scaling prope
 ## Framework
 
 <div align=center>
-<img src="asset/model.png", width=150/>
+<img src="asset/model.png", width=280/>
 </div>
 
 ## Overview
 
 <div align=center>
-<img src="asset/overview.png", width=150/>
+<img src="asset/overview.png", width=280/>
 </div>
 
 ## Heatmap w.r.t to Text
 
 <div align=center>
-<img src="asset/heatmap.png", width=500/>
+<img src="asset/heatmap.png", width=600/>
 </div>
 
 
