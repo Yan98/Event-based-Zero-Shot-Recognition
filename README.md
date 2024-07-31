@@ -1,25 +1,36 @@
-# Event Camera Data Dense Pre-training
+# EZSR: Event-based Zero-Shot Recognition
 
-This repository contains the PyTorch code for our paper "Event Camera Data Dense Pre-training".
+This repository contains the PyTorch code for our paper "EZSR: Event-based Zero-Shot Recognition".
 
-> [paper]() | [arxiv](https://arxiv.org/abs/2311.11533) | [project page](https://yan98.github.io/ECDDP/)
+> [paper]() | [arxiv]() | [project page](https://yan98.github.io/EZSR/)
 
-**The code and dataset will come soon!**
+**The inference code and pre-trained models will come soon**
 
 
 ## Introduction
-This paper introduces a self-supervised learning framework designed for pre-training neural networks tailored to dense prediction tasks using event camera data. Our approach utilizes solely event data for training.
+This paper studies zero-shot object recognition using event camera data. Guided by CLIP, which is pre-trained on RGB images, existing approaches achieve zero-shot object recognition by maximizing embedding similarities between event data encoded by an event encoder and RGB images encoded by the CLIP image encoder. Alternatively, several methods learn RGB frame reconstructions from event data  for the CLIP image encoder. However, these approaches often result in suboptimal zero-shot performance.
 
-Transferring achievements from dense RGB pre-training  directly to event camera data yields subpar performance. This is attributed to the spatial sparsity inherent in an event image (converted from event data), where many pixels do not contain information. To mitigate this sparsity issue, we encode an event image into event patch features, automatically mine contextual similarity relationships among patches, group the patch features into distinctive contexts, and enforce context-to-context similarities to learn discriminative event features.
+This study develops an event encoder without relying on additional reconstruction networks. We theoretically analyze the performance bottlenecks of previous approaches: global similarity-based objective (i.e., maximizing the embedding similarities) cause semantic misalignments between the learned event embedding space and the CLIP text embedding space due to the degree of freedom. To mitigate the issue, we explore a scalar-wise regularization strategy. Furthermore, to scale up the number of events and RGB data pairs for training, we also propose a pipeline for synthesizing event data from static RGB images.
 
-For training our framework, we curate a synthetic event camera dataset featuring diverse scene and motion patterns.
-Transfer learning performance on downstream dense prediction tasks illustrates the superiority of our method over state-of-the-art approaches.
-
+Experimentally, our data synthesis strategy exhibits an attractive scaling property, and our method achieves superior zero-shot object recognition performance on extensive standard benchmark datasets, even compared with past supervised learning approaches. For example, we achieve 47.84% zero-shot accuracy on the N-ImageNet dataset. 
 ## Framework
 
 <div align=center>
-<img src="asset/model.png", width=600/>
+<img src="asset/model.png", width=150/>
 </div>
+
+## Overview
+
+<div align=center>
+<img src="asset/overview.png", width=150/>
+</div>
+
+## Heatmap w.r.t to Text
+
+<div align=center>
+<img src="asset/heatmap.png", width=500/>
+</div>
+
 
 ## Requirement
 
@@ -50,4 +61,6 @@ python dataset.py
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2311.11533}, 
 }
+
+
 
