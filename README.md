@@ -2,7 +2,7 @@
 
 This repository contains the PyTorch code for our paper "EZSR: Event-based Zero-Shot Recognition".
 
-> [paper]() | [arxiv]() | [project page](https://yan98.github.io/EZSR/)
+> [arxiv](https://arxiv.org/pdf/2407.21616) | [project page](https://yan98.github.io/EZSR/)
 
 **The inference code and pre-trained models will come soon**
 
@@ -52,14 +52,14 @@ python dataset.py
 
 ```
 
-@misc{yang2023eventcameradatadense,
-      title={Event Camera Data Dense Pre-training}, 
-      author={Yan Yang and Liyuan Pan and Liu Liu},
-      year={2023},
-      eprint={2311.11533},
+@misc{yang2024ezsreventbasedzeroshotrecognition,
+      title={EZSR: Event-based Zero-Shot Recognition}, 
+      author={Yan Yang and Liyuan Pan and Dongxu Li and Liu Liu},
+      year={2024},
+      eprint={2407.21616},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2311.11533}, 
+      url={https://arxiv.org/abs/2407.21616}, 
 }
 
 
