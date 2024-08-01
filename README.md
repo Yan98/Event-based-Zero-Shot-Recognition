@@ -50,8 +50,7 @@ python dataset.py
 
 ## Citation
 
-```
-
+```bash
 @misc{yang2024ezsreventbasedzeroshotrecognition,
       title={EZSR: Event-based Zero-Shot Recognition}, 
       author={Yan Yang and Liyuan Pan and Dongxu Li and Liu Liu},
@@ -61,6 +60,6 @@ python dataset.py
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2407.21616}, 
 }
-
+```
 
 
