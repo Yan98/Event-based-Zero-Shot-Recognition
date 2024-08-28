@@ -73,9 +73,9 @@ with torch.no_grad(), torch.cuda.amp.autocast():
 print("Label probs:", text_probs)  # prints: [[3.2870e-06, 5.1930e-04, 9.9948e-01]]
 ```
 The event and paired RGB images for  `asset/test_event.npz`.
-<p align="center">
-  <img src="asset/event.png" width=140>
-  <img src="asset/test_event (paired rgb).JPEG" width=140>
+<p align="left">
+  <img src="asset/event.png" width=140 height=140>
+  <img src="asset/test_event (paired rgb).JPEG" width=140 height 140>
 </p>
 
 ## Evaluation of Zero-shot Event Classification Performance
