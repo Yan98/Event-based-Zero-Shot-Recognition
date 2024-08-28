@@ -12,19 +12,19 @@ This study develops an event encoder without relying on additional reconstructio
 Experimentally, our data synthesis strategy exhibits an attractive scaling property, and our method achieves superior zero-shot object recognition performance on extensive standard benchmark datasets, even compared with past supervised learning approaches. For example, we achieve 47.84% zero-shot accuracy on the N-ImageNet dataset. 
 ## Framework
 
-<div align=center>
+<div align=left>
 <img src="asset/model.png", width=280/>
 </div>
 
 ## Overview
 
-<div align=center>
+<div align=left>
 <img src="asset/overview.png", width=280/>
 </div>
 
 ## Heatmap w.r.t to Text
 
-<div align=center>
+<div align=left>
 <img src="asset/heatmap.png", width=600/>
 </div>
 
