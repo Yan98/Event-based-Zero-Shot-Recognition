@@ -41,7 +41,7 @@ from eva_clip import create_model_and_transforms, get_tokenizer
 from dataset.dataset import load_and_preprocess
 
 model_name = "EVA02-CLIP-bigE-14-plus" 
-pretrained = "EZSR-CLIP-bigE-14-plus.pt" # path to the downloaded model
+pretrained = "EZSR-CLIP-bigE-14-plus.pt" # path of the downloaded model
 
 event_path = "asset/test_event.npz"
 SENSOR_H = 480
