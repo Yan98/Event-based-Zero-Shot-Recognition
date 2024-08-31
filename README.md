@@ -123,7 +123,7 @@ Drop me an email if the link is not working.
 If you have any questions relating to our work, do not hesitate to contact [me](mailto:yan.yang@anu.edu.au?subject=EZSR).
 
 ## Acknowledgement
-EVA-CLIP is built using the awesome [OpenCLIP](https://github.com/mlfoundations/open_clip), [EVA](https://github.com/baaivision/EVA/tree/master), [BEiT](https://github.com/microsoft/unilm/tree/master/beit), [DeiT](https://github.com/facebookresearch/deit), [N-ImageNet](https://github.com/82magnolia/n_imagenet), and [mae](https://github.com/facebookresearch/mae).
+EZSR is built using the awesome [OpenCLIP](https://github.com/mlfoundations/open_clip), [EVA](https://github.com/baaivision/EVA/tree/master), [BEiT](https://github.com/microsoft/unilm/tree/master/beit), [DeiT](https://github.com/facebookresearch/deit), [N-ImageNet](https://github.com/82magnolia/n_imagenet), and [mae](https://github.com/facebookresearch/mae).
 
 ## Citation
 
