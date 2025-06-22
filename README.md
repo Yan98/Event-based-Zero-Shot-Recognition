@@ -107,7 +107,7 @@ Please prepare the pre-trained model.
 | `ViT-L/14`     | EVA    | TBC             |
 | `ViT-L/14-336` | OpenAI | TBC             |
 | `ViT-L/14-336` | EVA    | TBC             |
-| `ViT-bigE/14`  | EVA    | [link](https://anu365-my.sharepoint.com/:u:/g/personal/u6169130_anu_edu_au/EcIuoMducKxLo-nrg9w9Wt8BgBLQKLAVFJo78OcSjA7wDQ?e=EbiZmt)     |
+| `ViT-bigE/14`  | EVA    | [link](https://anu365-my.sharepoint.com/:u:/g/personal/u6169130_anu_edu_au/EcIuoMducKxLo-nrg9w9Wt8BgBLQKLAVFJo78OcSjA7wDQ?e=rLqVK8)     |
 
 </div>
 
