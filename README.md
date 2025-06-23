@@ -100,18 +100,19 @@ Please prepare the pre-trained model.
 
 | Model Name     | Init   | Weight          |
 |:---------------|:-------|:----------------|
-| `ViT-B/32`     | OpenAI | TBC             |
-| `ViT-B/16`     | OpenAI | TBC             |
-| `ViT-B/16`     | EVA    | TBC             |
-| `ViT-L/14`     | OpenAI | TBC             |
-| `ViT-L/14`     | EVA    | TBC             |
-| `ViT-L/14-336` | OpenAI | TBC             |
-| `ViT-L/14-336` | EVA    | TBC             |
-| `ViT-bigE/14`  | EVA    | [link](https://anu365-my.sharepoint.com/:u:/g/personal/u6169130_anu_edu_au/EcIuoMducKxLo-nrg9w9Wt8BgBLQKLAVFJo78OcSjA7wDQ?e=rLqVK8)     |
+| `ViT-B/32`     | OpenAI | [link](https://huggingface.co/HelloKKMe/EZSR/resolve/main/EZSR-OPENAI-VITB32.pt)             |
+| `ViT-B/16`     | OpenAI | [link](https://huggingface.co/HelloKKMe/EZSR/resolve/main/EZSR-OPENAI-VITB16.pt)             |
+| `ViT-B/16`     | EVA    | [link](https://huggingface.co/HelloKKMe/EZSR/resolve/main/EZSR-EVA-VITB16.pt)             |
+| `ViT-L/14`     | OpenAI | [link](https://huggingface.co/HelloKKMe/EZSR/resolve/main/EZSR-OPENAI-VITL14.pt)             |
+| `ViT-L/14`     | EVA    | [link](https://huggingface.co/HelloKKMe/EZSR/resolve/main/EZSR-EVA-VITL14.pt)             |
+| `ViT-L/14-336` | OpenAI | [link](https://huggingface.co/HelloKKMe/EZSR/resolve/main/EZSR-OPENAI-VITL14336.pt)             |
+| `ViT-L/14-336` | EVA    | [link](https://huggingface.co/HelloKKMe/EZSR/resolve/main/EZSR-EVA-VITL14336.pt)             |
+| `ViT-bigE/14`  | EVA    | [link](https://huggingface.co/HelloKKMe/EZSR/resolve/main/EZSR-CLIP-bigE-14-plus.pt)     |
 
 </div>
 
-Drop me an email if the link is not working.
+Note: The provided checkpoint `ViT-bigE/14` includes both the text encoder and the visual encoder. For other checkpoints, only the visual encoder is included to save space. To use these, please load the corresponding text encoder from either EVA (ViT-bigE/14)[ https://github.com/baaivision/EVA/tree/master/EVA-CLIP#eva-02-clip-series] or from OpenCLIP (OpenAI)[ https://github.com/mlfoundations/open_clip]. We use text encoders from both the EVA-02 series and the OpenAI series.
+
 
 ## How to get the dataset
 
