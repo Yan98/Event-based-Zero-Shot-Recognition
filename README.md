@@ -111,7 +111,7 @@ Please prepare the pre-trained model.
 
 </div>
 
-Note: The provided checkpoint `ViT-bigE/14` includes both the text encoder and the visual encoder. For other checkpoints, only the visual encoder is included to save space. To use these, please load the corresponding text encoder from either EVA [ViT-bigE/14]( https://github.com/baaivision/EVA/tree/master/EVA-CLIP#eva-02-clip-series) or from OpenCLIP [OpenAI]( https://github.com/mlfoundations/open_clip). We use text encoders from both the EVA-02 series and the OpenAI series.
+Note: The provided checkpoint `ViT-bigE/14` includes both the text encoder and the visual encoder. For other checkpoints, only the visual encoder is included to save space. To use these, please load the corresponding text encoder from either EVA [EVA]( https://github.com/baaivision/EVA/tree/master/EVA-CLIP#eva-02-clip-series) or from OpenCLIP [OpenAI]( https://github.com/mlfoundations/open_clip). We use text encoders from both the EVA-02 series and the OpenAI series.
 
 
 ## How to get the dataset
